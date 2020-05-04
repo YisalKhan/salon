@@ -1,0 +1,57 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Customizer file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/salon-site-ayesha-theme
+Data file = not defined!
+Widget file = C:\xampp\htdocs\salon-site-ayesha-theme/wp-content/uploads/2020/05/visual-elements.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+last_tab : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_color_switch : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_global_color : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_background_color : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_border_color : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_color : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_link_color : Sidebar does not exist in theme (moving widget to Inactive)
+
+regular - No Title - Site does not support widget
+hover - No Title - Site does not support widget
+visited - No Title - Site does not support widget
+active - No Title - Site does not support widget
+
+ve_custom_css : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+ve_custom_javascript : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+redux-backup : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+

@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:c2fad39fdd604f147937f550f56afe42
+SUMMARY:Salon - 06 May 2020 10:00
+DTSTART;TZID=+00:00:20200506T100000
+DTEND;TZID=+00:00:20200506T110000
+DESCRIPTION:Salon name: Salon \n\nSalon address: Main Street 123 \n\nSalon phone: 00391122334455 \n\nSalon email: yisal1994@gmail.com \n\nBooked services:\nManicure: 10:00 ➝ 10:00\nMassage: 10:00 ➝ 10:00\n\nBooking notes:\nNone\n\nBooking status: Confirmed
+LOCATION:Main Street 123
+END:VEVENT
+END:VCALENDAR

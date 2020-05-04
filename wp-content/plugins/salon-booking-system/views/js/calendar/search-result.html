@@ -1,0 +1,24 @@
+
+	<% if(search_results.length){ %>
+	<ul class="unstyled list-unstyled events-list">
+		<% _.each(search_results, function(result) { %>
+			<li class="search-result">
+				<div class="search-result-content">
+					<p class="search-result--customer"><%= result.id %> - <%= result.customer %></p>
+					<p class="search-result--start-date"><%= result.start_date %></p>
+					<p class="search-result--status"><%= result.status %></p>
+					<% _.each(result.services, function(service) { %>
+						<p class="search-result--service"><%= service.name %> <% if(service.attendant){ %> - <%= service.attendant %> <% } %></p>
+					<% }) %>
+					<p class="search-result--amount"><%= holidays_rules_locale.tot %> <%= result.amount %></p>
+				</div>
+				<div class="search-result-links">
+					<a class="search-result-link event" data-event-id="<%= result.id %>" href="<%= result.edit_url %>"><%= holidays_rules_locale.edit %></a>
+					<!--<a class="search-result-link" href="<%= result.cancel_url %>"><%= holidays_rules_locale.cancel %></a> -->
+				</div>
+			</li>
+		<% }) %>
+	</ul>
+	<% }else{ %>
+	 	<p style="text-align:center; font-size:1rem;"><%= holidays_rules_locale.no_results %></p>
+	<% } %>

@@ -1,0 +1,38 @@
+/* Logo */
+.svg .wp-badge.welcome__logo {
+    background: url('../img/logo_salon_booking_welcome.png') center 24px no-repeat;
+    background-size: contain;
+    color: #fff;
+}
+
+/* Responsive Youtube Video*/
+.embed-container {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    top: 0;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.about-wrap .feature-section.one-col{margin: 0 3% 0 0;}
+
+.about-wrap h3{width: 100%;}
+
+.feature-section ul{list-style-type: circle;}
+.feature-section ul li{margin: 0 0px 20px 0;}
+.feature-section ul li span{font-weight: bold; font-family: Courier New; color: black;}
+.wp-badge{box-shadow: none; width: 300px; height: auto;}
+
+.about-wrap .feature-section.two-col h3{margin: 2em 0 1em 0;}
+
+.about-wrap .feature-section{padding-right: 20px;}

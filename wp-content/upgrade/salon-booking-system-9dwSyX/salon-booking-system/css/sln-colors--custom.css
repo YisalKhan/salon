@@ -1,0 +1,452 @@
+#sln-salon *,
+#sln-salon *:before,
+#sln-salon *:after,
+.sln-datashortcode *,
+.sln-datashortcode *:before,
+.sln-datashortcode *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  #sln-salon *:focus,
+  #sln-salon *:before:focus,
+  #sln-salon *:after:focus,
+  .sln-datashortcode *:focus,
+  .sln-datashortcode *:before:focus,
+  .sln-datashortcode *:after:focus {
+    outline: 0 !important; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before, .clearfix:after,
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after,
+.clear:after {
+  clear: both; }
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+
+@-ms-keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.99); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+#sln-salon,
+.sln-checkbox input + label:before,
+.sln-checkbox input[type="checkbox"][disabled] + label:before,
+.sln-radiobox input + label:before,
+.sln-radiobox input + label:after,
+.sln-radiobox input[type="radio"][disabled] + label:before,
+#sln-salon .sln-input input,
+#sln-salon .sln-input textarea,
+#sln-salon .sln-input .sln-input--addon:after,
+#sln-notifications .sln-loader-wrapper,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-dropdown.sln-select-dropdown,
+.sln-salon-page.sln-salon-page-customcolors .select2-container.select2-container--sln .select2-search.select2-search--dropdown input[type="search"] {
+  background-color: {color-background-a}; }
+
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--borderonly,
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--nobkg,
+.datetimepicker.sln-datetimepicker table tr td.day.active:not(.disabled),
+.datetimepicker.sln-datetimepicker table tr td span.hour.active:not(.disabled),
+.datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.minute.active:not(.disabled),
+.datetimepicker.sln-datetimepicker table tr td span.month.active:not(.disabled),
+.datetimepicker.sln-datetimepicker table tr td span.year.active:not(.disabled),
+.sln-radiobox input:checked + label:after,
+.sln-radiobox input:checked + label:hover:after,
+#sln-salon .sln-btn--emphasis,
+#sln-salon.sln-bootstrap .sln-btn--emphasis,
+#sln-salon .sln-stepper .step.step--active .step-number,
+.sln-service:hover .sln-service__fkbkg,
+#sln-salon .sln-service:hover .sln-service__fkbkg,
+.sln-attendant:hover .sln-service__fkbkg,
+#sln-salon .sln-attendant:hover .sln-service__fkbkg,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option[aria-selected="true"],
+#sln-salon.sln-step-date
+#sln-notifications.sln-notifications--active
+.sln-alert.sln-alert--wait {
+  background-color: {color-main-a}; }
+
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--borderonly:hover,
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--nobkg:hover,
+#sln-salon .sln-panel .sln-panel-heading.collapsed .sln-btn--borderonly:hover,
+#sln-salon .sln-panel .sln-panel-heading.collapsed .sln-btn--nobkg:hover,
+#sln-salon .datetimepicker.sln-datetimepicker table tr td.day:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.hour:not(.disabled):not(.active):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.minute:not(.disabled):not(.active):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.month:not(.disabled):not(.active):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.year:not(.disabled):not(.active):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td.day.active:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.hour.active:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.minute.active:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.month.active:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker
+table
+tr
+td
+span.year.active:not(.disabled):hover,
+#sln-salon .datetimepicker.sln-datetimepicker .switch:hover,
+#sln-salon .datetimepicker.sln-datetimepicker .prev:hover,
+#sln-salon .datetimepicker.sln-datetimepicker .next:hover,
+#sln-salon .datetimepicker.sln-datetimepicker .today:hover,
+#sln-salon .sln-radiobox input + label:hover:after,
+#sln-salon .sln-btn--emphasis:hover,
+#sln-salon .sln-btn--emphasis:focus,
+#sln-salon .sln-btn--emphasis:active,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:hover,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:focus,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:active,
+#sln-salon .sln-btn--nobkg:hover,
+#sln-salon .sln-btn--nobkg:focus,
+#sln-salon .sln-btn--nobkg:active,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:hover,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:focus,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:active,
+#sln-salon .sln-btn--borderonly:hover,
+#sln-salon .sln-btn--borderonly:focus,
+#sln-salon .sln-btn--borderonly:active,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single:hover,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single:focus,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single[aria-expanded="true"] {
+  background-color: {color-main-b}; }
+
+#sln-salon .sln-salon-title,
+.sln-text--contrast,
+.sln_datepicker:after,
+.sln_timepicker:after,
+#sln-salon .sln-input .help-block,
+#sln-salon .sln-input .help-block a,
+#sln-salon .sln-input .sln-input--addon,
+#sln-salon .sln-btn--nobkg,
+#sln-salon.sln-bootstrap .sln-btn--nobkg,
+#sln-salon .sln-btn--nobkg input,
+#sln-salon .sln-btn--nobkg button,
+#sln-salon.sln-bootstrap .sln-btn--nobkg input,
+#sln-salon.sln-bootstrap .sln-btn--nobkg button,
+#sln-salon .sln-btn--borderonly,
+#sln-salon.sln-bootstrap .sln-btn--borderonly,
+#sln-salon .sln-alert,
+#sln-salon .alert,
+#sln-salon .sln-stepper .step.step--active .step-label,
+#sln-salon,
+#sln-salon .sln-attendant-list--multiple .sln-steps-name.sln-service-name,
+#sln-salon .sln-thankyou--okbox h1,
+#sln-salon .sln-thankyou--okbox h2,
+#sln-salon .sln-thankyou--okbox h3,
+#sln-salon .sln-thankyou--okbox .sln-icon-wrapper .sln-icon,
+#sln-salon .sln-payment-actions h4,
+#sln-salon .sln-input input,
+#sln-salon .sln-input textarea,
+#sln-salon .sln-text--emphasis,
+.sln-loader:after,
+#sln-salon .sln-panel .sln-panel-heading,
+#sln-salon .sln-panel .sln-panel-heading.collapsed .sln-btn--borderonly,
+#sln-salon .sln-panel .sln-panel-heading.collapsed .sln-btn--nobkg,
+#sln-salon .sln_datepicker:hover:after,
+#sln-salon .sln_timepicker:hover:after,
+#sln-salon .sln-checkbox input:checked + label:after,
+#sln-salon .sln-checkbox input:checked + label:hover:after,
+#sln-salon .sln-alert a,
+#sln-salon .alert a,
+#sln-salon .sln-alert.sln-alert--wait:after,
+#sln-salon .sln-alert--wait:after,
+#sln-salon .sln-steps-name,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-search.select2-search--dropdown
+input[type="search"] {
+  color: {color-main-a}; }
+
+#sln-salon .sln-input input::-webkit-input-placeholder,
+#sln-salon .sln-input textarea::-webkit-input-placeholder {
+  color: {color-main-c}; }
+
+#sln-salon .sln-input input:-moz-placeholder,
+#sln-salon .sln-input textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: {color-main-c}; }
+
+#sln-salon .sln-input input::-moz-placeholder,
+#sln-salon .sln-input textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: {color-main-c}; }
+
+#sln-salon .sln-input input:-ms-input-placeholder,
+#sln-salon .sln-input textarea:-ms-input-placeholder {
+  color: {color-main-c}; }
+
+#sln-salon .sln-input label,
+#sln-salon .sln-text--emphasis--hoverk,
+#sln-salon .sln-checkbox input + label:hover:after,
+#sln-salon .sln-alert a:hover,
+#sln-salon .alert a:hover,
+#sln-salon .sln-steps-name:hover,
+#sln-salon .sln-loader::before,
+#sln-salon.sln-step-date #sln-notifications.sln-notifications--active::before {
+  color: {color-main-b}; }
+
+.datetimepicker.sln-datetimepicker.datetimepicker-dropdown-bottom-right,
+#sln-salon .sln-input input,
+#sln-salon .sln-input textarea,
+#sln-salon .sln-btn--borderonly,
+#sln-salon.sln-bootstrap .sln-btn--borderonly,
+#sln-salon .snl-error-list-item,
+#sln-salon .sln-steps-description hr,
+#sln-salon .sln-list--dashed li,
+#sln-salon ul.sln-list--dashed li,
+#sln-salon .sln-list--dashed li,
+#sln-salon ul.sln-list--dashed li,
+#sln-salon .sln-attendant-list--multiple .sln-steps-name.sln-service-name,
+#sln-salon .sln-attendant hr,
+#sln-salon .sln-summary-row hr,
+#sln-salon .sln-thankyou--okbox hr,
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--borderonly:hover,
+#sln-salon .sln-checkbox input + label:hover:before,
+#sln-salon .sln-btn--borderonly:hover,
+#sln-salon .sln-btn--borderonly:focus,
+#sln-salon .sln-btn--borderonly:active,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active,
+#sln-salon .sln-alert a:hover,
+#sln-salon .alert a:hover,
+#sln-salon .sln-box--formactions .sln-btn--medium.sln-btn--icon--left,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-dropdown,
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-search.select2-search--dropdown
+input[type="search"] {
+  border-color: {color-main-c}; }
+
+#sln-salon .sln-panel .sln-panel-heading .sln-btn--borderonly,
+#sln-salon .sln-checkbox input + label:before,
+#sln-salon .sln-radiobox input + label:before {
+  border-color: {color-main-a}; }
+
+#sln-salon .sln-checkbox input[type="checkbox"][disabled] + label:before,
+#sln-salon .sln-radiobox input[type="radio"][disabled] + label:before {
+  border-color: {color-text-c}; }
+
+#sln-salon {
+  border-color: transparent; }
+
+#sln-salon .salon-step-title,
+#sln-salon .sln-text--dark,
+#sln-salon .sln-btn--borderonly input,
+#sln-salon .sln-btn--borderonly button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly button,
+#sln-salon .sln-steps-description,
+#sln-salon .sln-data-desc,
+#sln-salon .sln-data-desc .label,
+#sln-salon .sln-summary-row .label,
+#sln-salon .sln-total-label,
+#sln-salon .sln-total-price,
+#sln-salon .sln-steps-price {
+  color: {color-text-a}; }
+
+#sln-salon .sln-text--main,
+#sln-salon .sln-btn--emphasis,
+#sln-salon .sln-bootstrap .sln-btn--emphasis,
+#sln-salon .sln-btn--emphasis input,
+#sln-salon .sln-btn--emphasis button,
+#sln-salon .sln-btn--emphasis a,
+#sln-salon.sln-bootstrap .sln-btn--emphasis input,
+#sln-salon.sln-bootstrap .sln-btn--emphasis button,
+#sln-salon.sln-bootstrap .sln-btn--emphasis a,
+#sln-salon .sln-btn--emphasis:hover,
+#sln-salon .sln-btn--emphasis:focus,
+#sln-salon .sln-btn--emphasis:active,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:hover,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:focus,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:active,
+#sln-salon .sln-btn--emphasis:hover input,
+#sln-salon .sln-btn--emphasis:hover button,
+#sln-salon .sln-btn--emphasis:hover a,
+#sln-salon .sln-btn--emphasis:focus input,
+#sln-salon .sln-btn--emphasis:focus button,
+#sln-salon .sln-btn--emphasis:focus a,
+#sln-salon .sln-btn--emphasis:active input,
+#sln-salon .sln-btn--emphasis:active button,
+#sln-salon .sln-btn--emphasis:active a,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:hover input,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:hover button,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:hover a,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:focus input,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:focus button,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:focus a,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:active input,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:active button,
+#sln-salon.sln-bootstrap .sln-btn--emphasis:active a,
+#sln-salon .sln-btn--nobkg:hover,
+#sln-salon .sln-btn--nobkg:focus,
+#sln-salon .sln-btn--nobkg:active,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:hover,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:focus,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:active,
+#sln-salon .sln-btn--nobkg:hover input,
+#sln-salon .sln-btn--nobkg:hover button,
+#sln-salon .sln-btn--nobkg:focus input,
+#sln-salon .sln-btn--nobkg:focus button,
+#sln-salon .sln-btn--nobkg:active input,
+#sln-salon .sln-btn--nobkg:active button,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:hover input,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:hover button,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:focus input,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:focus button,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:active input,
+#sln-salon.sln-bootstrap .sln-btn--nobkg:active button,
+#sln-salon .sln-btn--borderonly:hover,
+#sln-salon .sln-btn--borderonly:focus,
+#sln-salon .sln-btn--borderonly:active,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active,
+#sln-salon .sln-btn--borderonly:hover input,
+#sln-salon .sln-btn--borderonly:hover button,
+#sln-salon .sln-btn--borderonly:focus input,
+#sln-salon .sln-btn--borderonly:focus button,
+#sln-salon .sln-btn--borderonly:active input,
+#sln-salon .sln-btn--borderonly:active button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active button,
+#sln-salon .sln-stepper .step .step-number,
+#sln-salon .sln-stepper .step.step--active .step-number,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single:hover,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single:focus,
+#sln-salon.sln-customcolors .select2-container.select2-container--sln
+.select2-selection--single[aria-expanded="true"],
+#sln-salon #sln-salon.sln-step-date
+#sln-notifications.sln-notifications--active
+.sln-alert.sln-alert--wait {
+  color: {color-background-a}; }
+
+#sln-salon .sln-btn--borderonly:hover,
+#sln-salon .sln-btn--borderonly:focus,
+#sln-salon .sln-btn--borderonly:active,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active,
+#sln-salon .sln-btn--borderonly:hover input,
+#sln-salon .sln-btn--borderonly:hover button,
+#sln-salon .sln-btn--borderonly:focus input,
+#sln-salon .sln-btn--borderonly:focus button,
+#sln-salon .sln-btn--borderonly:active input,
+#sln-salon .sln-btn--borderonly:active button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:hover button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:focus button,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active input,
+#sln-salon.sln-bootstrap .sln-btn--borderonly:active button,
+#sln-salon .sln-box--formactions .sln-btn--medium.sln-btn--icon--left:hover {
+  border-color: transparent; }
+
+
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option[aria-selected="true"] {
+  color: {color-background-a}; }
+
+.sln-salon-page.sln-salon-page-customcolors
+.select2-container.select2-container--sln
+.select2-results__option--highlighted[aria-selected] {
+  background-color: {color-main-b};
+  color: {color-background-a}; }

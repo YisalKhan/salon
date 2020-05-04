@@ -1,0 +1,6 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Missing Redux option name! Please also enter the Redux option name!

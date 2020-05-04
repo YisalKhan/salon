@@ -1,0 +1,97 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Customizer file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/salon-site-ayesha-theme
+Data file = not defined!
+Widget file = C:\xampp\htdocs\salon-site-ayesha-theme/wp-content/uploads/2020/05/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Widget already exists
+Visualmodo - Empty Space - No Title - Imported
+Text - No Title - Imported
+Visualmodo - Empty Space - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Image - Special Promotion - Imported
+Visualmodo - Empty Space - No Title - Imported
+Text - My Facebook - Imported
+Visualmodo - Empty Space - No Title - Imported
+Tag Cloud - Posts tags - Imported
+Visualmodo - Empty Space - No Title - Imported
+do-etfw - No Title - Site does not support widget
+
+First Footer : 
+
+Text - No Title - Imported
+
+Second Footer : 
+
+Text - Find our salon - Imported
+Visualmodo - Contact Information - No Title - Imported
+
+Third Footer : 
+
+Recent Posts - Latest News - Imported
+
+Fourth Footer : 
+
+Visualmodo - Social Icons - No Title - Imported
+Image - No Title - Imported
+Visualmodo - Empty Space - No Title - Imported
+Image - No Title - Imported
+
+Copyright Footer : 
+
+Visualmodo - Menu - No Title - Imported
+
+First Extra Widget : 
+
+Visualmodo - Social Icons - No Title - Imported
+
+Top Header Left : 
+
+Visualmodo - Contact Information - No Title - Imported
+
+Top Header Right : 
+
+Visualmodo - Social Icons - No Title - Imported
+
+WooCommerce : 
+
+Visualmodo - Empty Space - No Title - Imported
+Search - No Title - Imported
+Visualmodo - Empty Space - No Title - Imported
+Products - Products - Imported
+Visualmodo - Empty Space - No Title - Imported
+Products by Rating - Top rated products - Imported
+Visualmodo - Empty Space - No Title - Imported
+Image - Promotion - Imported
+
+side-navigation : Sidebar does not exist in theme (moving widget to Inactive)
+
+Visualmodo - Empty Space - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Visualmodo - Empty Space - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+Visualmodo - Contact Information - No Title - Imported to Inactive
+Visualmodo - Empty Space - No Title - Imported to Inactive
+Visualmodo - Social Icons - No Title - Imported to Inactive
+
+

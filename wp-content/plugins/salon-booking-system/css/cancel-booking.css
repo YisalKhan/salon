@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.sln-cancel-booking-block {
+    max-width: 500px;
+    margin: 30px auto 0;
+    border: solid 1px #ccc;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.sln-cancel-booking-block__header {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.sln-cancel-booking-block__text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.sln-cancel-booking-block__body {
+    margin: 20px 0 10px;
+}
+
+.sln-cancel-booking-block__body__action {
+    margin-top: 20px;
+}
+
+.sln-cancel-booking-block__body__booking {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sln-cancel-booking-block__body__action__form-block__note {
+    font-size: 12px;
+    color: #555;
+}
+
+.sln-cancel-booking-block__body__action__form-block__form {
+    margin-bottom: 10px;
+}
+
+.sln-cancel-booking-block__body__action__form-block__form__cancel-button {
+    margin: 0 0 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms, color 250ms;
+    -moz-transition: background-color 200ms, color 250ms;
+    -o-transition: background-color 200ms, color 250ms;
+    transition: background-color 200ms, color 250ms;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    background-color: red;
+    padding: 0px 50px;
+    line-height: 3.6em;
+    height: 3.6em;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sln-cancel-booking-block__body__action__booking-cancelled {
+    padding: 20px 0px;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sln-cancel-booking-block__body__action__cancellation-disabled,
+.sln-cancel-booking-block__body__action__out_of_time {
+    padding: 20px 0px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sln-cancel-booking-block__body__action__form-block__form__cancel-button:hover {
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23);
+}
